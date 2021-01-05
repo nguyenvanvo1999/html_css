@@ -1,0 +1,17 @@
+html{
+    background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);  
+    background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);  
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);  
+}
+body{
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 700px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
