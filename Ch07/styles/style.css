@@ -1,0 +1,49 @@
+body{
+    margin: 50px 230px;
+}
+.vertical_menu ul{
+    list-style-type: none;
+    position: relative;
+}
+.vertical_menu ul li ul{
+    display: none;
+    padding: 0;
+}
+.vertical_menu ul li{
+    width: 200px;   
+    float: left;
+}
+.vertical_menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1em .5em;
+    text-align: center;
+    border: 2px solid black;
+    background-color: violet;
+}
+.vertical_menu ul li ul li{
+    float: none;
+    position: relative;
+}
+.vertical_menu ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.vertical_menu ul li ul li ul li{
+    position: relative;
+}
+.vertical_menu ul li:hover > ul{
+    display: block;
+}
+.vertical_menu ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.vertical_menu ul li a:hover,
+.vertical_menu ul li a:focus{
+    background-color: yellow;
+    color: blue;
+} 

@@ -7,7 +7,7 @@ html{
 body{
     font-family: verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 700px;
+    width: 80%;
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
@@ -49,12 +49,13 @@ body{
 }
 #contact_us{
     margin-top: 1em;
+ 
 }
 a.date_passed{
     color: gray;
 }
 a.date{
-    color: red;
+    color: greenyellow;
 }
 footer{
     margin-top: 2em;
@@ -64,6 +65,25 @@ footer{
 footer p{
     font-size: 80%;
     text-align: right;
+}
+aside{
+    width: 350px;
+    float: right;
+    padding: 20px;
+    background-color: #FFEFC6;
+    margin: 25px;
+}
+aside h2{
+    font-size: 130%;
+    padding-bottom: .5em;
+}
+aside h3{
+    font-size: 100%;
+    color: #FF2121;
+    padding-bottom: .5em;
+}
+aside p{
+    margin-bottom: .5em;
 }
 
 
