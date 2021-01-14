@@ -127,7 +127,7 @@ main{
     padding: 1em;
 }
 #mobile_menu {
-    display: none;
+    display: none; 
 }
 @media only screen and (max-width: 1024px) {
     body {
@@ -144,7 +144,7 @@ main{
         margin: -1.5em 0em 0.5em 0em;
     }
     header h1 {
-        font-size: 2em; /* 26px */
+        font-size: 2em; 
     }
     header h2 {
         font-size: 1.2em;
@@ -159,9 +159,15 @@ main{
     .slicknav_menu {
         background-color: #931420 !important;
     }
+    .slicknav_btn{
+        margin-right: 85px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
+    .slicknav_btn{
+        margin-right: 40px;
+    }
     header h1 {
         font-size: 2.5em; 
         text-align: center;
