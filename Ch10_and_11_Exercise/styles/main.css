@@ -98,7 +98,8 @@ header em {
 #nav_menu ul li ul li ul{
 	position: absolute;
 	left: 100%;             
-	top: 0;             
+    top: 0;    
+    width: 20%;         
 }
 #nav_menu ul li.lastitem ul li ul{
 	position: absolute;
@@ -106,7 +107,9 @@ header em {
 	top: 0;               
 }
 #nav_menu ul li:hover > ul {
-	display: block;    
+    display: block;  
+    position: absolute;
+    width: 20%;
 }
 #nav_menu > ul::after {
 	content: "";
