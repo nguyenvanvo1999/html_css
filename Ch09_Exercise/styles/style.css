@@ -69,6 +69,7 @@ nav ul li a:focus{
 }
 nav ul li:hover > ul{
     display: block;
+    position: absolute;
 }
 nav ul::after{
     content: " ";
@@ -82,6 +83,7 @@ nav ul li ul{
 nav ul li ul li{
     float: none;
     position: relative;
+    width: 100%;
 }
 main{
     display: flex;
