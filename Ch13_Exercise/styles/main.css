@@ -4,8 +4,8 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 99%;
-    max-width: 850px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -133,7 +133,7 @@ header em {
     color: greenyellow;
 }
 /* main */
-main h2, main h3, main img, main p, main blockquote, main ul, main li {
+main h2, main h3, main img, main p, main ul, main li {
     margin: 0px;
 }
 /* main aside */
@@ -173,15 +173,6 @@ section h1 {
     padding-top: .5em;
     padding-bottom: .25em;
     margin: 0px;
-}
-section article {
-    padding: .5em 0;
-}
-section h2 {
-    font-size: 130%;
-    color: #800000;
-    padding-top: .5em;
-    padding-bottom: .25em;
 }
 /* footer */
 footer {
@@ -229,10 +220,6 @@ footer p {
         float: none;
         width: 91.68%;
     }
-    main section h2,p,blockquote{
-       display: block;
-       grid-area: navi;
-    }
     main aside {                     /* aside */
         float: none;
         width: 95.84%;
@@ -271,43 +258,56 @@ footer p {
         background-color:#800000 !important;
     }
 }
-figure{
-    padding: 0;
-    margin: 20px 0;
-}
-figcaption{
+
+section h1{
     color: #800000;
-    font-weight: 700;
-    padding-bottom: 6px;
 }
-table{
-    border-top: 2px solid #800000;
-    border-bottom: 2px solid #800000;
-    border-collapse: collapse;
+fieldset{
+    margin-bottom: 10px;
 }
-th, td {
-    padding: .2em .7em;
-    text-align: left;
-}
-tr:nth-child(1){
-    border-top: 2px solid #800000;
-}
-tr:nth-child(3){
-    border-top: 2px solid #800000;
-}
-tfoot{
-    border-top: 2px solid #800000;
-    border-bottom: 2px solid #800000;
-}
-tfoot td:nth-child(1){
+legend{
     color: black;
     font-weight: bold;
+}
+label{
+    float: left;
+    width: 10em;
     text-align: right;
 }
-tfoot tr:nth-child(3){
-    font-weight: bold;
+input{
+    margin-bottom: 7px;
+    margin-left: 2em;
+    width: 15em;
 }
-td:last-of-type{
-    text-align: right;
+select{
+    margin-bottom: 7px;
+    margin-left: 2em;
+    width: 15.6em;
+}
+label[for=billme]{
+    width: 5em;
+}
+label[for=creditcard]{
+    width: 7em;
+}
+#billme, #creditcard{
+    width: 2em;
+    float: left;
+    margin-right: -2em;
+    margin-left: 5.5em;
+}
+#month{
+    width: 7em;
+}
+#year{
+    width: 5em;
+}
+#submit{
+    width: 9em;
+    margin-left: 14em; 
+}
+#reset{
+    width: 9em;
+    margin-left: 1em;
 }
 
